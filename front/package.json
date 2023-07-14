@@ -1,0 +1,41 @@
+{
+  "name": "front",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Recaudaciones App",
+  "author": "Joel Alejandro Rios Vargas <joelrios077@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.41.0",
+    "axios": "^1.2.1",
+    "date-fns": "^2.30.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.29",
+    "numeral": "^2.0.6",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.2.4",
+    "vue3-apexcharts": "^1.4.1"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
